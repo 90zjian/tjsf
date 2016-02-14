@@ -1,0 +1,12 @@
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="cs" namespace="/umi" extends="struts-default">
+		<action name="user" class="userAction">
+		    <result name="input">login.html</result>
+		    <result name="success">index.html</result>
+		</action>
+	</package>
+</struts>
